@@ -19,6 +19,7 @@
 [class*="col"] {
     float:left;
     border: 1px solid #3e3e3e;
+    padding: 1%;
 }
 .col-1{
     width: 8.333%;
@@ -58,9 +59,16 @@
 }
 .uno{
   height: 64px;
-  background: rgb(183,183,183);
+  border-color: white;
 }
 .dos{
   height: 128px;
+
+  border-color: white;
+}
+.grey{
+  background: rgb(183,183,183);
+}
+.claro{
   background-color: rgb(155,155,155);
 }
